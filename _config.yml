@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Blog - Gui.H
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: Gui.H
 language: en
 timezone: ''
 
@@ -98,4 +98,10 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+- type: git
+  repo: https://github.com/springhgui/springhgui.github.io
+  # example, https://github.com/hexojs/hexojs.github.io
+  branch: gh-pages
+# - type: git
+#   repo: https://github.com/springhgui/blog
+#   branch: gh-pages
