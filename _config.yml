@@ -14,7 +14,7 @@ timezone: ''
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://yoursite.com
-root: /
+root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -98,10 +98,10 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-- type: git
-  repo: https://github.com/springhgui/springhgui.github.io
-  # example, https://github.com/hexojs/hexojs.github.io
-  branch: gh-pages
 # - type: git
-#   repo: https://github.com/springhgui/blog
-#   branch: gh-pages
+#   repo: https://github.com/springhgui/springhgui.github.io
+#   # example, https://github.com/hexojs/hexojs.github.io
+#   branch: master
+- type: git
+  repo: https://github.com/springhgui/blog
+  branch: gh-pages
